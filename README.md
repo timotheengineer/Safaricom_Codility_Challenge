@@ -2,11 +2,11 @@
 ## Algorithms and coding
 * Question 1
 
-Write a function 
+>Write a function 
 def solution(A,B) that given two non-negative integers A and B, returns the number of bits set to 1 in the binary representation of the number A*B.
 For example,given A=3 and B=7 the function should return 3, because the binary representation of A*B=3*7=21 is 10101and it contains three bits set to 1.
 Assume that:
-* A and B are integers within the range [0..100,000,000]
+>* A and B are integers within the range [0..100,000,000]
 
 ## First approach
 ```
@@ -34,7 +34,8 @@ def solution(A,B):
     return binary_value_list.count(1)
  ```
  * Question 2
- An array A consisting of N integers is given. A slice of that are a pair of integers(P,Q) such that 0<=P<=Q<N. A slice(P<,Q) of array A is called non-negative if all the elements A[p],A[P+1],..A[Q-1],A[Q] are non-negative. The sum of a slice(P,Q) of array A is the value A[P]+A[P+1]+...+A[Q-1]+A[Q].
+ 
+ >An array A consisting of N integers is given. A slice of that are a pair of integers(P,Q) such that 0<=P<=Q<N. A slice(P<,Q) of array A is called non-negative if all the elements A[p],A[P+1],..A[Q-1],A[Q] are non-negative. The sum of a slice(P,Q) of array A is the value A[P]+A[P+1]+...+A[Q-1]+A[Q].
  For example, the following array A:
  A[0]=1
  A[1]=2
